@@ -7,7 +7,6 @@
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-
 </head>
 <body>
   <nav id="desktop-nav">
@@ -20,6 +19,22 @@
         <li><a href="#Contact">#Contact</a></li>
       </ul>
     </div>
+    <nav id="hamburger-nav">
+      <div class="logo">Fernando Vargas</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+        <li><a href="#about" onclick="togglemenu()"></a>>About</a></li>
+        <li><a href="#experience" onclick="togglemenu()"></a>>Expiriecne</a></li>
+        <li><a href="#Projects" onclick="togglemenu()"></a>>Project</a></li>
+        <li><a href="#Contact" onclick="togglemenu()"></a>>#Contact</a></li>
+        </div>
+      </div>
+    </nav>
   </nav>
   <script src="script.js"></script>  
 </body>
